@@ -39,7 +39,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift();
   return(array);
 }
-console.log(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3]));
+console.log("destRmFrBeg ->" + destructivelyRemoveElementFromBeginningOfArray([1, 2, 3]));
 
 
 //console.log(array);
