@@ -13,7 +13,6 @@ function addElementToBeginningOfArray(array, element) {
 console.log("addElement ->  " + addElementToBeginningOfArray([1], "foo"));
 //--------------------------------
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  var x = [array];
   return(x.unshift("element"));  
 }
 console.log("destructivelyAdd ->  " + destructivelyAddElementToBeginningOfArray([1], "foo"));
