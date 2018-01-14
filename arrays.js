@@ -54,8 +54,9 @@ destructivelyRemoveElementFromEndOfArray([1, 2, 3]);
 //---------------------------------
 function removeElementFromEndOfArray(array) {
   array.slice(0, array.length -1);
+  return(array);
 }
-
+removeElementFromEndOfArray([1, 2, 3]);
 
 //console.log(array);
 //array.unshift("foo");
