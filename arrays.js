@@ -32,7 +32,7 @@ function accessElementInArray(array, i) {
   return(array[i]);
 }
 
-accessElementInArray([1, 2, 3], 2);
+console.log(accessElementInArray([1, 2, 3], 2));
 
 
 //console.log(array);
