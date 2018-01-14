@@ -5,36 +5,37 @@ var chocolateBars = [
   "skittles"
   ];
 console.log(chocolateBars);
-
+//-------------------------------
 function addElementToBeginningOfArray(array, element) {
   var newArray = [element, ...array];
   return (newArray);
 }
 console.log(addElementToBeginningOfArray([1], "foo"));
-
+//--------------------------------
 function destructivelyAddElementToBeginningOfArray(array, element) {
   var x = array
   return(x.unshift(element));  
 }
 console.log(destructivelyAddElementToBeginningOfArray([1], "foo"));
-
+//---------------------------------
 function addElementToEndOfArray(array, element) {
   var newArray2 = [array, ...element];
   return newArray2;
 }
 console.log(addElementToEndOfArray([1], "foo"));
-
+//---------------------------------
 function destructivelyAddElementToEndOfArray(array, element) {
-  
   return(array.push(element));
 }
-console.log(destructivelyAddElementToEndOfArray([1], "foo"))
-
+console.log(destructivelyAddElementToEndOfArray([1], "foo"));
+//---------------------------------
 function accessElementInArray(array, i) {
   return(array[i]);
 }
-
 console.log(accessElementInArray([1, 2, 3], 2));
+//---------------------------------
+
+
 
 
 //console.log(array);
