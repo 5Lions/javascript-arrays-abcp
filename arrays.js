@@ -40,6 +40,12 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return(array);
 }
 console.log("destRmFrBeg ->" + destructivelyRemoveElementFromBeginningOfArray([1, 2, 3]));
+//---------------------------------
+function removeElementFromBeginningOfArray(array) {
+  array.slice(1);
+  return array;
+}
+console.log("rmElemFrmBeg -> " + removeElementFromBeginningOfArray);
 
 
 //console.log(array);
