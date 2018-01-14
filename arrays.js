@@ -25,7 +25,8 @@ function addElementToEndOfArray(array, element) {
 console.log("addElementToEnd ->  " + addElementToEndOfArray([1], "foo"));
 //---------------------------------
 function destructivelyAddElementToEndOfArray(array, element) {
-  return(array.push(element));
+  array.push(element);
+  return(array);
 }
 console.log("destrAddEnd ->  " + destructivelyAddElementToEndOfArray([1], "foo"));
 //---------------------------------
