@@ -33,8 +33,10 @@ function accessElementInArray(array, i) {
 }
 console.log("accessElementInArray ->  " + accessElementInArray([1, 2, 3], 2));
 //---------------------------------
-
-
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.unshift();
+}
+destructivelyRemoveElementFromBeginningOfArray()
 
 
 //console.log(array);
