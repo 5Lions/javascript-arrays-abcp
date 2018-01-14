@@ -15,7 +15,7 @@ console.log("addElement ->  " + addElementToBeginningOfArray([1], "foo"));
 function destructivelyAddElementToBeginningOfArray(array, element) {
   return(array.unshift(element));  
 }
-console.log("destructivelyAdd ->  " + destructivelyAddElementToBeginningOfArray([1], "foo"));
+console.log("destructivelyAddBegin ->  " + destructivelyAddElementToBeginningOfArray([1], "foo"));
 //---------------------------------
 function addElementToEndOfArray(array, element) {
   var newArray2 = [array, ...element];
