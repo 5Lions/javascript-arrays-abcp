@@ -28,6 +28,9 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 console.log(destructivelyAddElementToEndOfArray([1], "foo"))
 
+function accessElementInArray(array, i) {
+  return(array[i]);
+}
 
 //console.log(array);
 //array.unshift("foo");
