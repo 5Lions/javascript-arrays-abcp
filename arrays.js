@@ -20,7 +20,7 @@ console.log("destructivelyAddBegin ->  " + destructivelyAddElementToBeginningOfA
 //---------------------------------
 function addElementToEndOfArray(array, element) {
   var newArray2 = [array, ...element];
-  return newArray2;
+  return(newArray2);
 }
 console.log("addElementToEnd ->  " + addElementToEndOfArray([1], "foo"));
 //---------------------------------
