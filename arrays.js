@@ -45,6 +45,12 @@ function removeElementFromBeginningOfArray(array) {
   return(array.slice(1));
 }
 console.log("rmElemFrmBeg -> " + removeElementFromBeginningOfArray([1, 2, 3]));
+//---------------------------------
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop();
+  return(array);
+}
+destructivelyRemoveElementFromEndOfArray([1, 2, 3]);
 
 
 //console.log(array);
