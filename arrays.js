@@ -36,7 +36,8 @@ function accessElementInArray(array, i) {
 console.log("accessElementInArray ->  " + accessElementInArray([1, 2, 3], 2));
 //---------------------------------
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return(array.shift());
+  array.shift();
+  return(array);
 }
 console.log(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3]));
 
