@@ -45,7 +45,7 @@ function removeElementFromBeginningOfArray(array) {
   array.slice(1);
   return array;
 }
-console.log("rmElemFrmBeg -> " + removeElementFromBeginningOfArray);
+console.log("rmElemFrmBeg -> " + removeElementFromBeginningOfArray([1, 2, 3]));
 
 
 //console.log(array);
