@@ -27,12 +27,12 @@ console.log("addElementToEnd " + addElementToEndOfArray([1], "foo"));
 function destructivelyAddElementToEndOfArray(array, element) {
   return(array.push(element));
 }
-console.log(destructivelyAddElementToEndOfArray([1], "foo"));
+console.log("destrAddEnd " + destructivelyAddElementToEndOfArray([1], "foo"));
 //---------------------------------
 function accessElementInArray(array, i) {
   return(array[i]);
 }
-console.log(accessElementInArray([1, 2, 3], 2));
+console.log("accessElementInArray " + accessElementInArray([1, 2, 3], 2));
 //---------------------------------
 
 
