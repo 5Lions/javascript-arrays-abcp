@@ -23,11 +23,10 @@ function addElementToEndOfArray(array, element) {
 }
 console.log(addElementToEndOfArray([1], "foo"));
 
-
 function destructivelyAddElementToEndOfArray(array, element) {
-  
+  array.push(element);
 }
-
+console.log(destructivelyAddElementToEndOfArray([1], "foo"))
 
 
 //console.log(array);
